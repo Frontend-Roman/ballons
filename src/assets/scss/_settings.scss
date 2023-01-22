@@ -1,5 +1,10 @@
 @import "mixin/fonts";
-@include font-face('Lato','assets/fonts/lato/latoblack' );
+@include font-face('Lato','assets/fonts/lato/latolight',300);
+@include font-face('Lato','assets/fonts/lato/latoregular',400);
+@include font-face('Lato','assets/fonts/lato/latomedium',500);
+@include font-face('Lato','assets/fonts/lato/latosemibold',600);
+@include font-face('Lato','assets/fonts/lato/latobold',700);
+@include font-face('Lato','assets/fonts/lato/latoheavy',800);
 * {
   &::after, &::before {
     margin: 0;
