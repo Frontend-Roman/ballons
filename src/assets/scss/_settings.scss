@@ -7,12 +7,10 @@
 @include font-face('Lato', 'assets/fonts/lato/latosemibold', 600);
 @include font-face('Lato', 'assets/fonts/lato/latobold', 700);
 @include font-face('Lato', 'assets/fonts/lato/latoheavy', 800);
-* {
-  &::after, &::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -30,7 +28,8 @@ body {
   padding: 5rem;
   background-color: white;
 }
-.container{
+
+.container {
   max-width: 1340px;
   margin: 0 auto;
   background-color: $backgroundColor;
