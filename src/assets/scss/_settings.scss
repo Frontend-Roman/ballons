@@ -1,5 +1,6 @@
 @import "mixin/fonts";
 @import "variables";
+@import "typografic/_typografic";
 
 @include font-face('Lato', 'assets/fonts/lato/latolight', 300);
 @include font-face('Lato', 'assets/fonts/lato/latoregular', 400);
